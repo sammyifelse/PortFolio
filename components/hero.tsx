@@ -50,9 +50,9 @@ export function Hero() {
             <Button asChild size="lg" variant="outline" className="border-portfolio-primary text-portfolio-primary hover:bg-portfolio-primary hover:text-white dark:border-portfolio-secondary dark:text-portfolio-secondary dark:hover:bg-portfolio-secondary dark:hover:text-black">
               <Link href="#contact">Get In Touch</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-portfolio-primary text-portfolio-primary hover:bg-portfolio-primary hover:text-white dark:border-portfolio-secondary dark:text-portfolio-secondary dark:hover:bg-portfolio-secondary dark:hover:text-black">
+            {/* <Button asChild size="lg" variant="outline" className="border-portfolio-primary text-portfolio-primary hover:bg-portfolio-primary hover:text-white dark:border-portfolio-secondary dark:text-portfolio-secondary dark:hover:bg-portfolio-secondary dark:hover:text-black">
               <Link href="/resume.pdf" download>Download Resume</Link>
-            </Button>
+            </Button> */}
           </motion.div>
           
           <motion.div 

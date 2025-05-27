@@ -1,10 +1,11 @@
+// app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Roboto } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-const roboto = Roboto({ 
+const roboto = Roboto({
   weight: ['400', '500', '700'],
   subsets: ["latin"],
   variable: "--font-roboto",
