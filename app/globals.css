@@ -123,6 +123,18 @@
     --chart-5: 340 75% 55%;
   }
 }
+#progress-svg {
+  /* Position it fixed to the screen on the top left */
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  /* Make sure it sits on top of other content */
+  z-index: 9999;
+  
+  /* Make sure we can click through the SVG container */
+  pointer-events: none;
+}
 
 @layer base {
   * {
@@ -131,4 +143,18 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* === CORRECTED CODE HERE === */
+/* Canvas Animation Theme Variables */
+:root {
+  /* Light Mode: black text on a transparent background */
+  --canvas-bg: rgba(255, 255, 255, 0); /* Fully transparent */
+  --canvas-text: #111827; /* Dark Gray / Almost Black */
+}
+
+.dark {
+  /* Dark Mode: green text on a semi-transparent black background */
+  --canvas-bg: rgba(0, 0, 0, 0.05); 
+  --canvas-text: #00f0a0; /* Matrix Green */
 }
